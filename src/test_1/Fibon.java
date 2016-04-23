@@ -7,7 +7,7 @@ package test_1;
 
 /**
  *
- * @author Dell
+ * @author Dell1
  */
 public class Fibon {
     public int[] calc() {
