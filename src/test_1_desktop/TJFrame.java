@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import javax.swing.*;
 import javax.swing.table.AbstractTableModel;
-import javax.swing.table.TableModel;
 import test_1.*;
 
 /**
@@ -69,27 +68,8 @@ jList1.setModel(ListModel);
     }
     
     private void TwoArray () {
-        TwoArray TwoArray = new TwoArray();
-        final int[][] MyTwoArray = TwoArray.BuildArray();
        
-        AbstractTableModel MyTableModel = new AbstractTableModel() {
-    
-
-  public int[][] values = MyTwoArray;
-  
-  public int getRowCount() {
-    return 8;
-  }
-
-  public int getColumnCount() {
-    return 5;
-  }
-
-  public Object getValueAt(int row, int column) {
-    return values[row][column];
-  }
-        };
-        
+       MyTableModel MyTableModel = new MyTableModel();
         jTable1.setModel(MyTableModel);
     }
             
