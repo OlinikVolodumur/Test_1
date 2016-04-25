@@ -24,7 +24,7 @@ public class Test_1 {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        /*
+        
         //1
          OddNumbers OddNumbersFor = new OddNumbers();
          ArrayList<Integer> NumbersFor = OddNumbersFor.ForCalc();
@@ -44,8 +44,9 @@ public class Test_1 {
            System.out.println(NumbersWhile.get(i));
            i++;
          }
-         */
+         
        //2
+       
        System.out.println();
        Factorial Factorial = new Factorial();
        
@@ -68,7 +69,7 @@ public class Test_1 {
        }
        
        
-       /*
+       
        //4
        
        OddNumbers OddNumbers = new OddNumbers();
@@ -89,27 +90,28 @@ public class Test_1 {
        
        for (int number:ArrayFibon)
        System.out.println(number);
-       */
-       /*
+       
+       
        //6
        TwoArray TwoArray = new TwoArray();
        int[][] MyTwoArray = new int[8][5];
        MyTwoArray = TwoArray.BuildArray();
        
-       for (int i=0;i<8;i++) {
+       for (int l=0;l<8;l++) {
        for (int j=0;j<5;j++)
-       System.out.print(MyTwoArray[i][j]+" ");
+       System.out.print(MyTwoArray[l][j]+" ");
        
        System.out.println();
        }
        
        
-       */     
-}
+    
+    }
+            
+            }
     
  
     
     
    
-}
 
